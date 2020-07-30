@@ -1,0 +1,24 @@
+#primary-slider .splide__slide div {
+   width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#secondary-slider .splide__slide div {
+    max-width: 100%;
+    height: auto;
+}
+
+#tags>span {
+    border: 1px solid #d4e735;
+    border-radius: 8px;
+    padding: 6px;
+    background: #395975;
+    white-space: nowrap;
+} 
+
+.p-branding__logo {
+    font-size: 50px;
+}
