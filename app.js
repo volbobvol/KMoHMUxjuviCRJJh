@@ -29,8 +29,17 @@ $(document).ready(function() {
 
     // Set the thumbnails slider as a sync target and then call mount.
     primarySlider.sync( secondarySlider ).mount();
-
+    $('#connect-click').click(onPhoneClick);
 });
+
+var textPhone = ['+3', '8 066 256', '7340']
+
+function onPhoneClick() {
+    setTimeout(() => {
+        $('#phone-holder').text(textPhone.join(''));
+    }, 500);
+    
+}
 
 function openPopup() {
     //$('#imageModal').modal('toggle')
