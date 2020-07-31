@@ -32,7 +32,7 @@ $(document).ready(function() {
     $('#connect-click').click(onPhoneClick);
 });
 
-var textPhone = ['+3', '8 066 256', '7340']
+var textPhone = ['+3', '8 066 256', '7340', ', ', '+43 ', '677', ' 61301173']
 
 function onPhoneClick() {
     setTimeout(() => {
